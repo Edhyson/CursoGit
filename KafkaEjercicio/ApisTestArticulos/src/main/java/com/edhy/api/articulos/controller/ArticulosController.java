@@ -43,7 +43,7 @@ public class ArticulosController {
 	 
 	 @PutMapping("/actualiza")
 	 public ResponseEntity<?> actualiza(@RequestBody Articulo articulo) {
-		 
+		  //pruebas de git actualiza
 		 return ResponseEntity.status(HttpStatus.OK)
 				 .body(articulosService.actualiza(articulo));
 	 }
@@ -55,7 +55,7 @@ public class ArticulosController {
 	 }
 	 @GetMapping("/todo")
 	 public ResponseEntity<?> todo(){
-		 
+		 //pruebas de git
 		return ResponseEntity.status(HttpStatus.OK)
 		 .body(articulosService.todo());
 		 
