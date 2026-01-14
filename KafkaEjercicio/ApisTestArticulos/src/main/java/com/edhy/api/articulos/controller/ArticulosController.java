@@ -26,7 +26,7 @@ public class ArticulosController {
 	
 	@PostMapping( "/alta")
 	public ResponseEntity<Articulo> alta(@RequestBody Articulo articulo) {
-		
+		// nuevos comentarios agregados.
 		return ResponseEntity.status(HttpStatus.CREATED)
 				.body(articulosService.alta(articulo)) ;
 		
