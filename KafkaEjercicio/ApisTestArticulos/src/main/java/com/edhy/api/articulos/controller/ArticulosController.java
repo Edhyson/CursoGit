@@ -26,7 +26,7 @@ public class ArticulosController {
 	
 	@PostMapping( "/alta")
 	public ResponseEntity<Articulo> alta(@RequestBody Articulo articulo) {
-		
+				  //pruebas de git alta
 		return ResponseEntity.status(HttpStatus.CREATED)
 				.body(articulosService.alta(articulo)) ;
 		
@@ -35,7 +35,7 @@ public class ArticulosController {
 	
 	 @GetMapping( "/consulta/{idArticulo}")
 	 public ResponseEntity<?> consulta(@PathVariable  long idArticulo){
-		 
+		  //pruebas de git consulta
 		 return ResponseEntity.status(HttpStatus.OK)
 				 .body(articulosService.consulta(idArticulo)
 						 .isEmpty()?HttpStatus.NO_CONTENT:articulosService.consulta(idArticulo).get());

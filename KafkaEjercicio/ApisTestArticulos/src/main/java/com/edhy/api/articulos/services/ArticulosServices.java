@@ -29,6 +29,7 @@ public class ArticulosServices {
 	}
 
 	public Articulo actualiza(Articulo articulo) {
+		 //pruebas de git servicio actualiza 
 		// TODO Auto-generated method stub
 		return articulosRepository.saveAndFlush(articulo);
 	}
