@@ -35,6 +35,8 @@ public class ArticulosServices {
 	}
 
 	public void delete(long idArticulo) {
+		
+		// cambios necesarios V1
 		// TODO Auto-generated method stub
 		 articulosRepository.deleteById(idArticulo);
 	}

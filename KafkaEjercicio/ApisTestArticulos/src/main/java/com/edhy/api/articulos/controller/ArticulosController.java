@@ -27,6 +27,7 @@ public class ArticulosController {
 	@PostMapping( "/alta")
 	public ResponseEntity<Articulo> alta(@RequestBody Articulo articulo) {
 				  //pruebas de git alta
+				  // se agrega nuevo comentario en GIT
 		return ResponseEntity.status(HttpStatus.CREATED)
 				.body(articulosService.alta(articulo)) ;
 		
