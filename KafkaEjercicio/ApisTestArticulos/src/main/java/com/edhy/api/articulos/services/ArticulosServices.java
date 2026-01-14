@@ -29,11 +29,14 @@ public class ArticulosServices {
 	}
 
 	public Articulo actualiza(Articulo articulo) {
+		 //pruebas de git servicio actualiza 
 		// TODO Auto-generated method stub
 		return articulosRepository.saveAndFlush(articulo);
 	}
 
 	public void delete(long idArticulo) {
+		
+		// cambios necesarios V1
 		// TODO Auto-generated method stub
 		 articulosRepository.deleteById(idArticulo);
 	}
