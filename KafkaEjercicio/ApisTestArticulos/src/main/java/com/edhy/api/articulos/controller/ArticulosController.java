@@ -28,7 +28,7 @@ public class ArticulosController {
 	public ResponseEntity<Articulo> alta(@RequestBody Articulo articulo) {
 
 		// nuevos comentarios agregados.
-
+		// cambio final...
 				  //pruebas de git alta
 				  // se agrega nuevo comentario en GIT
 
